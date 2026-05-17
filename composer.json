@@ -1,0 +1,51 @@
+{
+    "name": "susheelhbti/reachhub",
+    "description": "ReachHub — Multi-channel marketing automation for Laravel. Email, WhatsApp, SMS, Push, AI, Workflows, GDPR & more via REST API.",
+    "type": "library",
+    "license": "MIT",
+    "version": "4.0.0",
+    "keywords": [
+        "laravel", "campaign", "email", "whatsapp", "sms", "push",
+        "marketing", "automation", "gdpr", "reachhub", "multi-channel"
+    ],
+    "authors": [
+        {
+            "name": "Susheel",
+            "email": "susheelhbti@gmail.com",
+            "homepage": "https://github.com/susheelhbti"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "suggest": {
+        "league/csv": "For advanced CSV import/preview capabilities (^9.0)",
+        "phpoffice/phpspreadsheet": "For Excel contact export functionality (^2.0)",
+        "openai-php/laravel": "OpenAI Laravel client for cloud AI features (^0.8)"
+    },
+    "autoload": {
+        "psr-4": {
+            "ReachHub\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ReachHub\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ReachHub\\Providers\\ReachHubServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

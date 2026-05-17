@@ -617,4 +617,4 @@ Then add `'telegram' => TelegramChannel::class` to `$channelMap` in `CampaignSer
 
 ## 📜 License
 
-MIT © Your Name
+MIT © Susheel Kumar susheelhbti@gmail.com
